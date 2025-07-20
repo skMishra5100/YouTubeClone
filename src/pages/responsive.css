@@ -1,0 +1,60 @@
+@media screen and (min-width:425px) and (max-width: 768px) {
+
+    .header {
+        max-width: 100%;
+    }
+
+    .YT-logo {
+        width: 100px;
+        justify-content:space-around;
+        gap: 10px;
+    }
+    .YT-logo img {
+        height: 30px;
+        width: 30px;
+        
+    }
+    #img {
+        height: 50px;
+        width: 50px;
+    
+    }
+    .search {
+      display: none;
+    }
+
+
+    .YT-profile img {
+        height: 30px;
+        width: 30px;
+    }
+
+/* SIDEBAR */
+.sidebar,
+.sidebar2{
+    min-height: 30vh;
+    flex-direction:row;
+    justify-content: space-around;
+    gap: 20px;
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+/* HOMEPAGE */
+.Homepage {
+    max-width: 100%;
+    position: none;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    overflow: hidden;
+}
+
+.mobile-sidebar{
+    height:500vh;
+    display: flex;
+    flex-direction: column;
+}
+
+}

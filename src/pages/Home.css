@@ -1,0 +1,18 @@
+.Homepage {
+    min-width: 82.3vw;
+    min-height: 150vh;
+    position: absolute;
+    top: 15%;
+    transform: translateX(20%);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0;
+    overflow: hidden;
+}
+
+.Homepage-sidebar {
+    min-height: 150vh;
+    min-width: 92.3vw;
+    transform: translateX(7%);
+    grid-template-columns: auto auto auto auto;
+}

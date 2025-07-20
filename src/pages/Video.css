@@ -1,0 +1,226 @@
+.play-video {
+    min-height: 100vh;
+    padding: 20px;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.left-YT-video {
+    flex-basis: 75%;
+    min-height: 100vh;
+    max-width: 65vw;
+    margin-top: 8px;
+}
+
+.video-details {
+    min-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+.Yt-feacher,
+.view-days {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Yt-feacher span,
+.video-details span {
+    font-size: 0.8rem;
+}
+
+hr {
+    width: 100%;
+    margin: auto;
+}
+
+.like-share {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Yt-feacher img {
+    height: 25px;
+    width: 30px;
+}
+
+.channelName,
+.description {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.description p {
+    font-size: 0.8rem;
+}
+
+.channel-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fame h3 {
+    font-size: 1rem;
+}
+
+.fame {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.fame span {
+    font-size: 0.8rem;
+}
+
+.channel-icon img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#subscribe-btn {
+    background-color: red;
+    outline: 0;
+    border: 0;
+    padding: 7px 20px;
+    border-radius: 7px;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.comment-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    min-height: 60vh;
+    position: relative;
+}
+
+.channel-comment {
+    text-align: start;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#comment-no {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.comment-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.comment-icon img {
+    max-height: 40px;
+    max-width: 40px;
+    border-radius: 50%;
+}
+
+.comment-icon h3 {
+    font-size: 0.9rem;
+}
+
+.comment {
+    font-size: 0.9rem;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.like-1,
+.like-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.like-1 img,
+.like-2 img {
+    height: 25px;
+    width: 30px;
+}
+
+.like-share {
+    display: flex;
+    gap: 15px;
+}
+
+.Yt-feacher {
+    cursor: pointer;
+    padding: 4px;
+
+}
+
+.description {
+    position: relative;
+
+}
+
+#desc {
+    position: absolute;
+    right: 7%;
+    top: -3%;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#desc2 {
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    color: blue;
+    background-color: transparent;
+}
+
+
+#loader2 {
+    border: 4px solid #ccc;
+    border-top: 4px solid #000;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: loading 1s linear infinite;
+    position: absolute;
+    bottom: 50%;
+    left: 45%;
+
+}
+
+@keyframes loading {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
